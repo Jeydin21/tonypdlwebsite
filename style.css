@@ -1,72 +1,49 @@
-/* Reset some default browser styles */
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Arial', sans-serif;
-}
-
 /* Style for the body */
 body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
     background-color: #f4f4f4;
-    color: #333;
-    line-height: 1.6;
-    padding: 20px;
 }
 
 /* Container for the main content */
 .container {
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 20px;
-    background: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 8px;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
 }
 
 /* Header styles */
 header {
     background: #333;
     color: #fff;
-    padding: 20px 0;
-    text-align: center;
-    border-radius: 8px 8px 0 0;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #77aaff 3px solid;
 }
 
-header h1 {
-    margin: 0;
-    font-size: 2.5em;
-}
-
-/* Navigation styles */
-nav {
-    margin: 20px 0;
-    text-align: center;
-}
-
-nav a {
-    color: #333;
+header a {
+    color: #fff;
     text-decoration: none;
-    margin: 0 15px;
-    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
 }
 
-nav a:hover {
-    color: #007BFF;
+header ul {
+    padding: 0;
+    list-style: none;
+}
+
+header li {
+    display: inline;
+    padding: 0 20px 0 20px;
 }
 
 /* Main content styles */
-main {
+.main-content {
     padding: 20px;
-}
-
-main h2 {
-    margin-bottom: 20px;
-    color: #007BFF;
-}
-
-main p {
-    margin-bottom: 20px;
+    background: #fff;
+    margin-top: 20px;
 }
 
 /* Footer styles */
@@ -75,10 +52,5 @@ footer {
     color: #fff;
     text-align: center;
     padding: 10px 0;
-    border-radius: 0 0 8px 8px;
     margin-top: 20px;
-}
-
-footer p {
-    margin: 0;
 }
